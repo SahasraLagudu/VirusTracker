@@ -118,7 +118,7 @@
             this.label3.Text = "Welcome, User";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // Form1
+            // HomePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -132,8 +132,9 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "HomePage";
             this.Text = "Home Page";
+            this.Load += new System.EventHandler(this.HomePage_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
